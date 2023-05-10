@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin | F8</title>
+    <link
+      rel="shortcut icon"
+      href="../img/favicon_32x32.png"
+      type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/admin.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo-details">
+        <a href="./index.html">
+          <img src="../img/f8-icon.png" alt="logo" class="logo" />
+        </a>
+        <span class="logo_name">fullstack.edu.vn</span>
+      </div>
+      <h2 class="sidebar-title">Quản lý khoá học</h2>
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="active">
+            <i class="fa-solid fa-book"></i>
+            <span class="links_name">Khoá học miễn phí</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-book"></i>
+            <span class="links_name">Khoá học trả phí</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-book"></i>
+            <span class="links_name">Khoá học sắp tới</span>
+          </a>
+        </li>
+      </ul>
+      <h2 class="sidebar-title">Quản lý blog</h2>
+      <ul class="nav-links">
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-newspaper"></i>
+            <span class="links_name">Bài viết nổi bật</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-newspaper"></i>
+            <span class="links_name">Quản lý blog</span>
+          </a>
+        </li>
+      </ul>
+      <h2 class="sidebar-title">Quản lý tài khoản</h2>
+      <ul class="nav-links">
+        <li>
+          <a href="#">
+            <i class="fa-regular fa-user"></i>
+            <span class="links_name">Tài khoản admin</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-regular fa-user"></i>
+            <span class="links_name">Tài khoản người học</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <section class="home-section">
+      <nav class="admin-nav">
+        <div class="sidebar-button">
+          <i class="fa-solid fa-bars sidebarBtn"></i>
+        </div>
+        <div class="profile-details">
+          <img src="img/avatar.jpg" alt="" />
+          <span class="admin_name">Nguyễn Việt Anh</span>
+          <i class="fa fa-chevron-down"></i>
+        </div>
+      </nav>
+      <main class="home-content">
+        <div class="container">
+          <h1 class="title">Quản lý khoá học miễn phí</h1>
+          <button class="btn-add">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+            Thêm khoá học
+          </button>
+          <table>
+            <thead>
+              <tr>
+                <th><input type="checkbox" /></th>
+                <th>STT</th>
+                <th>Tên khoá học</th>
+                <th>Số người học</th>
+                <th>Ngày đăng</th>
+                <th>Sửa</th>
+                <th>Xoá</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <input type="checkbox" />
+                </td>
+                <td>1</td>
+                <td>Kiến thức nhập môn IT</td>
+                <td>99.851</td>
+                <td>27/3/2020</td>
+                <td>
+                  <i class="fa-regular fa-pen-to-square"></i>
+                </td>
+                <td>
+                  <i class="fa-regular fa-trash-can"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" />
+                </td>
+                <td>2</td>
+                <td>HTML CSS từ Zero đến Hero</td>
+                <td>150.923</td>
+                <td>28/7/2020</td>
+                <td>
+                  <i class="fa-regular fa-pen-to-square"></i>
+                </td>
+                <td>
+                  <i class="fa-regular fa-trash-can"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" />
+                </td>
+                <td>3</td>
+                <td>Lập Trình JavaScript Cơ Bản</td>
+                <td>98.307</td>
+                <td>21/10/2020</td>
+                <td>
+                  <i class="fa-regular fa-pen-to-square"></i>
+                </td>
+                <td>
+                  <i class="fa-regular fa-trash-can"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" />
+                </td>
+                <td>4</td>
+                <td>Lập Trình JavaScript Nâng Cao</td>
+                <td>26.057</td>
+                <td>5/2/2021</td>
+                <td>
+                  <i class="fa-regular fa-pen-to-square"></i>
+                </td>
+                <td>
+                  <i class="fa-regular fa-trash-can"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" />
+                </td>
+                <td>5</td>
+                <td>Xây Dựng Website với ReactJS</td>
+                <td>42.178</td>
+                <td>22/3/2021</td>
+                <td>
+                  <i class="fa-regular fa-pen-to-square"></i>
+                </td>
+                <td>
+                  <i class="fa-regular fa-trash-can"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" />
+                </td>
+                <td>6</td>
+                <td>Node & ExpressJS</td>
+                <td>29.075</td>
+                <td>1/4/2021</td>
+                <td>
+                  <i class="fa-regular fa-pen-to-square"></i>
+                </td>
+                <td>
+                  <i class="fa-regular fa-trash-can"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" />
+                </td>
+                <td>7</td>
+                <td>App "Đừng Chạm Tay Lên Mặt"</td>
+                <td>4.045</td>
+                <td>5/2/2021</td>
+                <td>
+                  <i class="fa-regular fa-pen-to-square"></i>
+                </td>
+                <td>
+                  <i class="fa-regular fa-trash-can"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" />
+                </td>
+                <td>8</td>
+                <td>Responsive Với Grid System/td></td>
+                <td>34.116</td>
+                <td>5/6/2021</td>
+                <td>
+                  <i class="fa-regular fa-pen-to-square"></i>
+                </td>
+                <td>
+                  <i class="fa-regular fa-trash-can"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" />
+                </td>
+                <td>9</td>
+                <td>Làm việc với Terminal & Ubuntu</td>
+                <td>10.683</td>
+                <td>28/7/2021</td>
+                <td>
+                  <i class="fa-regular fa-pen-to-square"></i>
+                </td>
+                <td>
+                  <i class="fa-regular fa-trash-can"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" />
+                </td>
+                <td>10</td>
+                <td>Lập trình C++ cơ bản, nâng cao</td>
+                <td>3.382</td>
+                <td>21/10/2021</td>
+                <td>
+                  <i class="fa-regular fa-pen-to-square"></i>
+                </td>
+                <td>
+                  <i class="fa-regular fa-trash-can"></i>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="paginate">
+            <a href="">&laquo;</a>
+            <a href="" class="active">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <a href="">4</a>
+            <a href="">5</a>
+            <a href="">...</a>
+            <a href="">&raquo;</a>
+          </div>
+        </div>
+      </main>
+    </section>
+  </body>
+  <script src="admin.js"></script>
+</html>
